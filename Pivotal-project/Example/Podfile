@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Pivotal' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pivotal
+  pod 'Pivotal', :path => '../'
+  pod 'Login', :path => '../'
+  pod 'Setting', :path => '../'
+  pod 'Profile', :path => '../'
+  pod 'SVProgressHUD'
+  pod 'UMengUShare/UI'
+  pod 'UMengUShare/Social/WeChat'
+  pod 'UMengUShare/Social/QQ'
+  pod 'Harpy'
+
+  target 'PivotalTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
+  end
+
+  target 'PivotalUITests' do
+    # Pods for testing
+  end
+
+end
