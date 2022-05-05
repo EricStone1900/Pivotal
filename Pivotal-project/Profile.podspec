@@ -51,10 +51,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "宋皇驳+RT04103" => "songhuangbo@odc.cmbchina.cn" }
-  # Or just: spec.author    = "宋皇驳+RT04103"
-  # spec.authors            = { "宋皇驳+RT04103" => "songhuangbo@odc.cmbchina.cn" }
-  # spec.social_media_url   = "https://twitter.com/宋皇驳+RT04103"
+  spec.author             = { "宋皇驳" => "songhuangbo@163.com" }
+  # Or just: spec.author    = "宋皇驳"
+  # spec.authors            = { "宋皇驳" => "songhuangbo@163.com" }
+  # spec.social_media_url   = "https://twitter.com/宋皇驳"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
